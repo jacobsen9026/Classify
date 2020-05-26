@@ -1,4 +1,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) 
+
+
+<img src="https://github.com/jacobsen9026/Classify/raw/master/.github/images/classify.png" width=40%/>
 # Classify
 This is a dev branch that is the current active branch.
 
