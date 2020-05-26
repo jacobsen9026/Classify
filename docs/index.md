@@ -2,22 +2,22 @@
 The framework is based on a loose implementation of the MVC pattern. All code in the system folder is and should remain ambiguous from the app.
 
 - System
-- - Introduction
-Installation
-Constants
-Request
-Directory Structure
-Parser
-App
-Introduction
-Directory Structure
-Tutorial
-Config
-Themes
-Router
-Controllers
-Models
-Views
+  - Introduction
+  - Installation
+  - Constants
+  - Request
+  - Directory Structure
+  - Parser
+- App
+  - Introduction
+  - Directory Structure
+  - Tutorial
+  - Config
+  - Themes
+  - Router
+  - Controllers
+  - Models
+  - Views
 Source Code
 
 # System
