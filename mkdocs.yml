@@ -25,5 +25,3 @@ nav:
       - 'app/views.md'
   - Class Referece:
       - 'index.md'
-theme:
-  name: readthedocs
