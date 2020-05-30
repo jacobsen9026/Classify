@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <title>Introduction - Classify</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+    <script src="../js/jquery-1.10.2.min.js" defer></script>
+    <script src="../js/bootstrap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="..">Classify</a>
+        <!-- Expander button -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Expanded navigation -->
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Intro <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a href="../requirements/" class="dropdown-item">Requirements</a>
+                        </li>
+
+                        <li>
+                            <a href="../setup/" class="dropdown-item">Setup</a>
+                        </li>
+
+                        <li>
+                            <a href="../help/" class="dropdown-item">Help</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">System <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a href="./" class="dropdown-item active">Introduction</a>
+                        </li>
+
+                        <li>
+                            <a href="constants/" class="dropdown-item">Constants</a>
+                        </li>
+
+                        <li>
+                            <a href="logging/" class="dropdown-item">Logging</a>
+                        </li>
+
+                        <li>
+                            <a href="encryption/" class="dropdown-item">Encryption</a>
+                        </li>
+
+                        <li>
+                            <a href="lang/" class="dropdown-item">Lang</a>
+                        </li>
+
+                        <li>
+                            <a href="file/" class="dropdown-item">File</a>
+                        </li>
+
+                        <li>
+                            <a href="post/" class="dropdown-item">Post</a>
+                        </li>
+
+                        <li>
+                            <a href="get/" class="dropdown-item">Get</a>
+                        </li>
+
+                        <li>
+                            <a href="request/" class="dropdown-item">Request</a>
+                        </li>
+
+                        <li>
+                            <a href="appOutput/" class="dropdown-item">AppOutput</a>
+                        </li>
+
+                        <li>
+                            <a href="parser/" class="dropdown-item">Parser</a>
+                        </li>
+
+                        <li>
+                            <a href="renderer/" class="dropdown-item">Renderer</a>
+                        </li>
+
+                        <li>
+                            <a href="ajax/" class="dropdown-item">AJAX</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">App <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a href="../app/" class="dropdown-item">Introduction</a>
+                        </li>
+
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-item">Tutorials</a>
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a href="../app/tutorials/firstPage/" class="dropdown-item">Introduction</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="../app/routing/" class="dropdown-item">Routing</a>
+                        </li>
+
+                        <li>
+                            <a href="../app/controllers/" class="dropdown-item">Controllers</a>
+                        </li>
+
+                        <li>
+                            <a href="../app/models/" class="dropdown-item">Models</a>
+                        </li>
+
+                        <li>
+                            <a href="../app/views/" class="dropdown-item">Views</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Class Referece <b
+                            class="caret"></b></a>
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a href=".." class="dropdown-item">Classify</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a rel="prev" href="../help/" class="nav-link">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a rel="next" href="constants/" class="nav-link">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
+                            data-target="#toc-collapse" title="Table of Contents">
+                        <span class="fa fa-angle-down"></span>
+                    </button>
+                </div>
+
+
+                <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item" data-level="1"><a href="#introduction" class="nav-link">Introduction</a>
+                            <ul class="nav flex-column">
+                                <li class="nav-item" data-level="2"><a href="#overview" class="nav-link">Overview</a>
+                                    <ul class="nav flex-column">
+                                    </ul>
+                                </li>
+                                <li class="nav-item" data-level="2"><a href="#app-output" class="nav-link">App
+                                    Output</a>
+                                    <ul class="nav flex-column">
+                                    </ul>
+                                </li>
+                                <li class="nav-item" data-level="2"><a href="#system-configuration-file"
+                                                                       class="nav-link">System Configuration File</a>
+                                    <ul class="nav flex-column">
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9" role="main">
+
+            <h1 id="introduction">Introduction</h1>
+            <h2 id="overview">Overview</h2>
+            <ul>
+                <li>The system folder is the store of all system and common app classes.
+                    It is not a place that should be modified without serious caution.
+                    <strong>DO NOT EDIT THESE FILES UNLESS YOU KNOW WHAT YOU ARE DOING!</strong></li>
+                <li>The file <code>/system/Core.php</code> is the master program file and controls all child operations
+                    from then on. 
+                </li>
+                <li>Email support is provided by PHPMailer.</li>
+                <li>Base CSS is provided by BootStrap4  (requires IE&gt;9).</li>
+                <li>The system/app operates on the Class/Object principle. Refer to the UML when coding.</li>
+                <li>Adding features is most often done either by creating new Classes that "Model" an object that the
+                    application needs to perform complex operations on, or by extending one of the core classes to build
+                    upon the included functionality of said core class.
+                </li>
+            </ul>
+            <h3 id="important-notes">Important Notes</h3>
+            <p>Application stream output (eg:echo) is blocked if the system is not in debug mode
+                The HTML tags and loading of the BootStrap4 CSS Framework are handled by the system renderer. There are
+                two options to override this style:
+                Override the style with a custom css in the application, available to clients via the public folder
+                Disable BootStrap4 in the system config and create a complete custom CSS for the app (don't forget to
+                style the system/app log outputs)</p>
+            <h2 id="app-output">App Output</h2>
+            <p>It is important to know that the app object and it's children are not allowed to print directly to the
+                output (while system debug is off). For example, echo "test";would not print test on the page. All
+                application output from child objects need to be buffered through the parser and then returned to the
+                app and then up to the core as a string.</p>
+            <p>To capture the output of a command the view function must be used, then you would add the return value to
+                the classes output variable, and the calling class must extend the system Parser class.</p>
+            <p>The core is responsible for actually sending the application output string to the client.</p>
+            <p>If you need to grab information from inside the app you can use the debug logger or return early with the
+                information you're looking for.</p>
+            <h2 id="system-configuration-file">System Configuration File</h2>
+            <h3 id="path">Path</h3>
+            <p>The system config file is located in /system/Config.php</p>
+            <h3 id="default-contents">Default Contents</h3>
+            <p>The system config file is very important. It prepares all the constant variables for the core system. An
+                error in this file leads to core failure.</p>
+            <p>The contents of this file are loaded directly into the core and then executed. Be careful what you put in
+                here.</p></div>
+    </div>
+</div>
+
+<footer class="col-md-12">
+    <hr>
+    <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+</footer>
+<script>
+    var base_url = "..",
+        shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+</script>
+<script src="../js/base.js" defer></script>
+<script src="../search/main.js" defer></script>
+
+<div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query"
+                               title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th style="width: 20%;">Keys</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="help shortcut"><kbd>?</kbd></td>
+                        <td>Open this help</td>
+                    </tr>
+                    <tr>
+                        <td class="next shortcut"><kbd>n</kbd></td>
+                        <td>Next page</td>
+                    </tr>
+                    <tr>
+                        <td class="prev shortcut"><kbd>p</kbd></td>
+                        <td>Previous page</td>
+                    </tr>
+                    <tr>
+                        <td class="search shortcut"><kbd>s</kbd></td>
+                        <td>Search</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
