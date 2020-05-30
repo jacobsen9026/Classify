@@ -26,4 +26,4 @@ nav:
   - Class Referece:
       - 'index.md'
 theme:
-  name: material
+  name: readthedocs
