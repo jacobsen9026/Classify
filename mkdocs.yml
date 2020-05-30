@@ -1,3 +1,4 @@
+docs_dir: 'docs/source'
 site_name: Classify
 nav:
   - Intro:
@@ -28,3 +29,27 @@ nav:
       - 'app/views.md'
   - Class Referece:
       - 'index.md'
+theme:
+  name: material
+  favicon: images/small-logo.png
+  logo: images/small-logo.png
+  features:
+    - instant
+  palette:
+    primary: blue grey
+    accent: indigo
+
+repo_name: jacobsen9026/Classify
+repo_url: https://github.com/jacobsen9026/Classify
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/jacobsen9026
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
