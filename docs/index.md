@@ -1,8 +1,8 @@
-# Welcome to MkDocs
+# Classify
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A lightweight MVC designed to be as simple,lightweight, and portable as possible.
 
-## Commands
+## Features
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.

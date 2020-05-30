@@ -1,1 +1,29 @@
-site_name: My Docs
+site_name: Classify
+nav:
+  - Intro:
+      - 'requirements.md'
+      - 'setup.md'
+      - 'help.md'
+  - System:
+      - 'system/index.md'
+      - 'system/constants.md'
+      - 'system/logging.md'
+      - 'system/file.md'
+      - 'system/post.md'
+      - 'system/get.md'
+      - 'system/request.md'
+      - 'system/appOutput.md'
+      - 'system/parser.md'
+      - 'system/ajax.md'
+  - App:
+      - 'app/index.md'
+      - Tutorials:
+          - 'app/tutorials/firstPage.md'
+      - 'app/routing.md'
+      - 'app/controllers.md'
+      - 'app/models.md'
+      - 'app/views.md'
+  - Class Referece:
+      - 'index.md'
+theme:
+  name: material
